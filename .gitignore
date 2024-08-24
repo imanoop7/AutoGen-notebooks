@@ -1,1 +1,3 @@
 .venv/*
+.cache/41/cache.db
+/.cache
