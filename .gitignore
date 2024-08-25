@@ -2,4 +2,4 @@
 .cache/41/cache.db
 /.cache
 .env
-web/get_article_info.py
+
