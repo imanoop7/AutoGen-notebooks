@@ -12,8 +12,8 @@ meta_data=$(curl -s "https://query1.finance.yahoo.com/v7/finance/quote?symbols=M
 tesla_data=$(curl -s "https://query1.finance.yahoo.com/v7/finance/quote?symbols=TSLA" | jq -r '.quoteResponse.result[0]')
 
 # Get the year-to-date gain for each stock
-meta_ytd_gain=$(echo $meta_data | jq -r '.regularMarketChangePercentYTD')
-tesla_ytd_gain=$(echo $tesla_data | jq -r '.regularMarketChangePercentYTD')
+meta_ytd_gain=$(echo $meta_data | jq -r '.regularMarketChangePercent')
+tesla_ytd_gain=$(echo $tesla_data | jq -r '.regularMarketChangePercent')
 
 # Print the year-to-date gain for each stock
 echo "META year-to-date gain: $meta_ytd_gain%"
