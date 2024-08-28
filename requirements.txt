@@ -1,2 +1,3 @@
 pyautogen
 agentops
+dask[dataframe]
