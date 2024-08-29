@@ -1,3 +1,4 @@
 pyautogen
 agentops
 dask[dataframe]
+groq
