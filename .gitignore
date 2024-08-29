@@ -3,3 +3,5 @@
 /.cache
 .env
 
+*.log
+agentops.log
