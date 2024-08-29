@@ -2,3 +2,4 @@ pyautogen
 agentops
 dask[dataframe]
 groq
+google-generativeai

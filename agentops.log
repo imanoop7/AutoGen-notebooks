@@ -1,0 +1,2 @@
+2024-08-29 23:38:19,443 - INFO - Session Replay: https://app.agentops.ai/drilldown?session_id=b49aeda4-ec75-4c87-a62a-70265dde3e67
+2024-08-29 23:38:19,497 - WARNING - AgentOps has already been initialized. If you are trying to start a session, call agentops.start_session() instead.
