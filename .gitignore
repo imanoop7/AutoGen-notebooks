@@ -7,3 +7,6 @@
 agentops.log
 agentops.log
 agentops.log
+chroma_db/chroma.sqlite3
+/chroma_db
+/tmp
